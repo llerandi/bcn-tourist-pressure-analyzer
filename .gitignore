@@ -1,0 +1,10 @@
+# Ignore contents of these folders
+data/raw/*
+data/sample/*
+
+# Do not ignore the backup subfolder (so we can reach files inside it)
+!data/raw/backup/
+data/raw/backup/*
+
+# Specifically allow init.txt files
+!**/init.txt
