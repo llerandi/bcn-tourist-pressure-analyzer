@@ -8,3 +8,6 @@ data/raw/backup/*
 
 # Specifically allow init.txt files
 !**/init.txt
+
+# Intellij IDEA
+.idea
