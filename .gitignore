@@ -1,0 +1,4 @@
+# Ignore data folders due capacity
+data/raw/
+data/raw/backup/
+data/sample/
