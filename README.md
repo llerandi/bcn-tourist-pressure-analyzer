@@ -17,7 +17,7 @@ By intersecting tourism volume with local household income, the goal is to under
 
 * **Real-time Ingestion:** a producer that simulates high-throughput event streams into Redpanda
 * **Stream Processing:** real-time windowed aggregations of tourism activity metrics across different neighborhoods
-* **Batch Layer:** data enrichment using official household income datasets (Open Data BCN) to categorize neighborhoods by economic capacity and gentrification risk
+* **Batch Layer:** data enrichment using official household income datasets to categorize neighborhoods by economic capacity and gentrification risk
 * **Serving Layer:** a RESTful API built with **<TBD>** to expose processed insights, making them available for dashboard consumption **<TBD>**
 * **Advanced Analytics:** use of Random Forest for price prediction based on property features and neighborhood income, alongside K-Means for spatial clustering
 
@@ -25,8 +25,8 @@ By intersecting tourism volume with local household income, the goal is to under
 
 *To ensure scalability, performance, and maintainability, this project leverages a modern, cloud-ready tech stack*
 
-* **Languages:** Java 21 and Python 3.11+
-* **Backend Framework:** Spring Boot 3.x (Spring Data JPA and Spring Kafka)
+* **Languages:** Java 25 and Python 3.11+
+* **Backend Framework:** Spring Boot 3.x (with Spring for Apache Kafka)
 * **Big Data Engine:** Apache Spark
 * **Message Broker:** Redpanda
 * **Database:** PostgreSQL and MongoDB
